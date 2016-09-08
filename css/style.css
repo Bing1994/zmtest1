@@ -1,0 +1,209 @@
+/*头部*/
+body{
+	font-family: ''
+}
+header{
+	width:18.75rem;
+	height: 3.2rem;
+	background: #000;
+}
+header h1{
+	font-size:1.0rem;
+	color:#ffffff;
+	letter-spacing:0.0rem;
+	text-align:center;
+	padding-top: 1.6rem;
+}
+
+/*主体*/
+section{
+	background:#f2f2f2;
+	padding:0 0.4rem 0 0.4rem;
+}
+.banner{
+	width: 18.75rem;
+	height: 16.45rem;
+	background-image: url(../img/banner.jpg);
+	background-size: 18.75rem 16.45rem;
+	margin:0 -0.4rem 0 -0.4rem;
+
+}
+.search{
+	width: 17.95rem;
+	height: 2.0rem;
+	margin: 0.5rem auto;
+	background: #fff;
+	border-radius:0.2rem
+}
+.qg{
+	width: 17.95rem;
+	height: 13.175rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	overflow: hidden;
+}
+.qg .cont{
+	padding:0rem 0.5rem;
+}
+.qg ul{
+    width:100%;
+    box-sizing:border-box;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+
+}
+.qg li{
+	width: 6.05rem;
+	margin-right:0.3rem;
+	position:relative;
+    display:inline-block;
+}
+.qg li img{
+	border-radius:0.2rem;
+	width:6.05rem;
+	height:6.05rem;
+	margin-bottom: 0.2rem;
+}
+.qg li p{
+	font-size:0.5rem;
+	color:#4a4a4a;
+	letter-spacing:0rem;
+	line-height:0.625rem;
+	height:1.25rem;
+	width: 6.05rem;
+	white-space:normal;
+}
+.qg li .time{
+	width: 4.5rem;
+	height: 1.175rem;
+	border:0.025rem solid #d7b359;
+	border-radius:0.2rem;
+	margin:0.5rem auto 0rem;
+	
+}
+.qg .time dd{
+	width: 1.45rem;
+	height: 100%;
+	float: left;
+	border-left:0.025rem solid #d7b359;
+	text-align: center;
+	line-height: 1.125rem;
+	margin-right:0rem;
+}
+.qg .time dd:first-child{
+	border-left:none;
+	border-radius:0.2rem;
+}
+.tit{
+	height: 3.0rem;
+	background-image: url(../img/tit-l.png);
+	background-size: 10.175rem 0.2rem;
+	background-repeat: no-repeat;
+	background-position:3.875rem;
+}
+.tit h1{
+	font-size:1.0rem;
+	color:#d7b359;
+	letter-spacing:0rem;
+	text-align:center;
+	line-height: 3rem;
+}
+/*流行趋势*/
+.lx{
+	margin-top: 0.5rem;
+	width: 17.95rem;
+	height: 11.55rem;
+	background: #fff;
+	border-radius: 0.2rem;
+}
+.lx .cont{
+	padding:0rem 0.5rem;
+	overflow: hidden;
+}
+.lx ul{
+	width:100%;
+    box-sizing:border-box;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+}
+.lx ul img{
+	width: 6.05rem;
+	height: 6.05rem;
+}
+.lx ul li{
+	margin-right: 0.35rem;
+	display:inline-block;
+}
+.lx .msg{
+	font-size:0.75rem;
+	color:#4a4a4a;
+	letter-spacing:0rem;
+	text-align:left;
+	padding: 0.75rem 0 0 0.5rem;
+}
+
+/*本月推荐*/
+.tj{
+	margin-top: 0.5rem;
+	width: 17.95rem;
+	background: #fff;
+	border-radius: 0.2rem;
+}
+.t-list{
+	border:0.05rem solid #1b1a20;
+	border-radius:0.2rem;
+	width:16.95rem;
+	height:22.4rem;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
+}
+.t-list .t-show{
+	background:#0d0d0d;
+	border-radius:0.2rem;
+	width:15.25rem;
+	height:14.8rem;
+	margin: 0.75rem 0.9rem;
+}
+.t-list .msg{
+	width: 15.4rem;
+	height: 2.3rem;
+	font-size: 0.75rem;
+	color: #4A4A4A;
+	letter-spacing: 0px;
+	line-height: 1.15rem;
+	margin: 0 auto;
+}
+.price{
+	height: 1.15rem;
+	line-height: 1.15rem;
+}
+
+.price li:nth-child(2){
+	font-size: 0.9rem;
+	color: #D7B359;
+	letter-spacing: 0px;
+	width: 1.875rem;
+	text-align: center;
+}
+.t-list .price  img{
+	width: 0.55rem;
+	height: 0.675rem;
+	margin-top: 0.225rem;
+	margin-left: 1.225rem;
+	margin-right: 0.275rem;
+}
+.price li:nth-child(3){
+	font-size: 0.5rem;
+	color: #9B9B9B;
+	letter-spacing: 0.0rem;
+}
+.xian{
+	width: 1.125rem;
+	height: 0.1rem;
+	background: #4A4A4A;
+	margin-left: 0.975rem;
+	margin-top: 1.175rem;
+	margin-bottom: 0.5rem;
+}
