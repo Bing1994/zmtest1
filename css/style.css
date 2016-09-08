@@ -51,14 +51,32 @@ section{
     overflow-x:scroll;
     overflow-y:hidden;
     white-space: nowrap;
-
+	height: 9.25rem;
 }
 .qg li{
 	width: 6.05rem;
+	height: 9.25rem;
 	margin-right:0.3rem;
-	position:relative;
     display:inline-block;
+    vertical-align:middle;
 }
+.qg li:last-child{
+	width: 2.625rem;
+	/*background: #ccc;*/
+	height: 9.225rem;
+	display: inline-block;
+	position: relative;
+	background-image: url(../img/more.png);
+	background-size: 100%;
+}
+.qg li:last-child p{
+	font-size: 0.5rem;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin: 3.987rem auto;
+}
+
+
 .qg li img{
 	border-radius:0.2rem;
 	width:6.05rem;
@@ -69,10 +87,11 @@ section{
 	font-size:0.5rem;
 	color:#4a4a4a;
 	letter-spacing:0rem;
-	line-height:0.625rem;
-	height:1.25rem;
+	line-height: 0.625rem;
+	height: 1.25rem;
 	width: 6.05rem;
 	white-space:normal;
+	overflow: hidden;
 }
 .qg li .time{
 	width: 4.5rem;
@@ -83,13 +102,14 @@ section{
 	
 }
 .qg .time dd{
-	width: 1.45rem;
-	height: 100%;
+	width: 32.9%;
+	height: 1.16rem;
 	float: left;
 	border-left:0.025rem solid #d7b359;
 	text-align: center;
-	line-height: 1.125rem;
+	line-height: 1.16rem;
 	margin-right:0rem;
+	font-size: 0.6rem;
 }
 .qg .time dd:first-child{
 	border-left:none;
@@ -129,6 +149,7 @@ section{
     white-space: nowrap;
 }
 .lx ul img{
+	border-radius:0.2rem;
 	width: 6.05rem;
 	height: 6.05rem;
 }
@@ -150,6 +171,7 @@ section{
 	width: 17.95rem;
 	background: #fff;
 	border-radius: 0.2rem;
+	padding-bottom: 0.5rem;
 }
 .t-list{
 	border:0.05rem solid #1b1a20;
@@ -177,7 +199,6 @@ section{
 }
 .price{
 	height: 1.15rem;
-	line-height: 1.15rem;
 }
 
 .price li:nth-child(2){
@@ -186,11 +207,12 @@ section{
 	letter-spacing: 0px;
 	width: 1.875rem;
 	text-align: center;
+	line-height: 1.15rem;
 }
 .t-list .price  img{
 	width: 0.55rem;
 	height: 0.675rem;
-	margin-top: 0.225rem;
+	margin-top: 0.25rem;
 	margin-left: 1.225rem;
 	margin-right: 0.275rem;
 }
@@ -198,12 +220,50 @@ section{
 	font-size: 0.5rem;
 	color: #9B9B9B;
 	letter-spacing: 0.0rem;
+	position: relative;
+	bottom: 0;
+	margin-top: 0.3rem;
 }
 .xian{
 	width: 1.125rem;
 	height: 0.1rem;
 	background: #4A4A4A;
 	margin-left: 0.975rem;
-	margin-top: 1.175rem;
+	margin-top: 1rem;
 	margin-bottom: 0.5rem;
+}
+
+.sole{
+	height: 5.575rem;
+}
+.sole img{
+	width: 2.0rem;
+	height: 1.3rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -1rem;
+	margin-top: 0.75rem;
+}
+.sole p{
+	font-size: 20px;
+	color: #C1C1C1;
+	letter-spacing: 0px;
+	line-height: 26px;
+	text-align: center;
+	width: 12.5rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -6.25rem;
+	margin-top: 2.425rem;
+}
+.sole h3{
+	font-size: 20px;
+	color: #C1C1C1;
+	letter-spacing: 0px;
+	line-height: 26px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -1.9rem;
+	margin-top: 4.025rem;
 }
