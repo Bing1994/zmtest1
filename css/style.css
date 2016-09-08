@@ -73,7 +73,7 @@ section{
 	font-size: 0.5rem;
 	width: 1.25rem;
 	height: 1.25rem;
-	margin: 3.987rem auto;
+	margin: 3.987rem 0 0 1rem;
 }
 
 
@@ -87,7 +87,7 @@ section{
 	font-size:0.5rem;
 	color:#4a4a4a;
 	letter-spacing:0rem;
-	line-height: 0.625rem;
+	line-height: 0.65rem;
 	height: 1.25rem;
 	width: 6.05rem;
 	white-space:normal;
@@ -98,7 +98,7 @@ section{
 	height: 1.175rem;
 	border:0.025rem solid #d7b359;
 	border-radius:0.2rem;
-	margin:0.5rem auto 0rem;
+	margin:0.455rem auto 0rem;
 	
 }
 .qg .time dd{
@@ -257,10 +257,10 @@ section{
 	margin-top: 2.425rem;
 }
 .sole h3{
-	font-size: 20px;
+	font-size: 0.5rem;
 	color: #C1C1C1;
 	letter-spacing: 0px;
-	line-height: 26px;
+	line-height: 0.65rem;
 	text-align: center;
 	position: absolute;
 	left: 50%;
